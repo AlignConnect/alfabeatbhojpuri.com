@@ -21,12 +21,12 @@ const Hero = () => {
   return (
     <section className="relative w-full bg-black">
       {/* Background Video - YouTube Style */}
-      <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+      <div className="relative w-full pb-[66.25%] md:pb-[46.25%]" >
         <div className="absolute inset-0 w-full h-full">
           <iframe
             ref={iframeRef}
             className="absolute inset-0 w-full h-full"
-            src={`https://www.youtube.com/embed/G0ARS5WFuHo?autoplay=${isPlaying ? 1 : 0}&mute=0&loop=1&playlist=G0ARS5WFuHo&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1`}
+            src={`https://www.youtube.com/embed/G0ARS5WFuHo?autoplay=${isPlaying ? 1 : 0}&mute=0&loop=1&playlist=G0ARS5WFuHo&controls=1&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1`}
             title="Alfa Beat Bhojpuri - Latest Song"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
